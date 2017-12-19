@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>Documentation Comments</string>
 			<key>scope</key>
-			<string>comment.doc</string>
+			<string>comment.doc, comment.block.documentation</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -134,6 +134,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FCD748</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TypeScript Type Annotation</string>
+			<key>scope</key>
+			<string>meta.type.annotation.ts, meta.return.type.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF9800</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,6 +294,34 @@
 			<dict>
 				<key>foreground</key>
 				<string>#00BCD4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSDOC Annotations</string>
+			<key>scope</key>
+			<string>storage.type.class.jsdoc.todo.marker</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FCD748</string>
+				<key>foreground</key>
+				<string>#2C2C2C</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSDOC Annotations</string>
+			<key>scope</key>
+			<string>storage.type.class.jsdoc.todo</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FCD748</string>
+				<key>fontStyle</key>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>

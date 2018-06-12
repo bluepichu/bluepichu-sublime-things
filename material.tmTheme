@@ -298,9 +298,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSDOC Annotations</string>
+			<string>TODO</string>
 			<key>scope</key>
-			<string>storage.type.class.jsdoc.todo.marker</string>
+			<string>meta.todo</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -313,9 +313,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JSDOC Annotations</string>
+			<string>FIXME</string>
 			<key>scope</key>
-			<string>storage.type.class.jsdoc.todo</string>
+			<string>meta.fixme</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F1453D</string>
+				<key>foreground</key>
+				<string>#2C2C2C</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TODO content</string>
+			<key>scope</key>
+			<string>meta.todo.marker</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
